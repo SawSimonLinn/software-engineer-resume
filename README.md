@@ -18,7 +18,7 @@ This repository contains a LaTeX template for a professional software engineer r
 2. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/yourusername/software-engineer-resume.git
+    git clone https://github.com/SawSimonLinn/software-engineer-resume.git
     cd software-engineer-resume
     ```
 
