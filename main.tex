@@ -1,0 +1,253 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage[margin=1.4cm]{geometry}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.15in}
+ \addtolength{\textwidth}{0.3in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{0pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}\vspace{0pt}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Large \scshape Saw Simon Linn} \\[2mm]
+    \footnotesize \raisebox{-0.1\height}
+    \faPhone~\underline{(414) 343-6893} ~ 
+    \faEnvelope~\underline{sawsimonlinn@gmail.com} ~ 
+    \faLinkedin~\href{https://www.linkedin.com/in/sawsimonlinn}{\underline{linkedin.com/in/sawsimonlinn}} ~ 
+    \faGithub~\href{https://github.com/SawSimonLinn}{\underline{github.com/SawSimonLinn}} ~ 
+    \faBriefcase~\href{https://www.simonlinn.com/}{\underline{simonlinn.com}}
+\end{center}
+
+
+%-----------Summary-----------
+\section{Professional Summary} 
+\vspace{-1pt}
+% \resumeSubHeadingListStart
+  \resumeItemListStart
+    \resumeItem{
+      \textbf{Front End Developer} with \textbf{1.9+ years} experience and \textbf{7+ years in design}, building full-stack tools from franchise dashboards to portfolio platforms.
+    }
+\vspace{-3pt}
+    \resumeItem{
+      Fast learner with strong \textbf{UI/UX instincts}, turning ideas into clean, responsive user experiences.
+    }
+\vspace{-3pt}
+    \resumeItem{
+      Passionate about blending design and engineering to deliver smart, elegant solutions.
+    }
+  \resumeItemListEnd
+% \resumeSubHeadingListEnd
+
+
+ \vspace{-12pt}
+
+ 
+  %-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Languages \& Tools}{: JavaScript, TypeScript, Python, HTML5, CSS3, SQL, Git, GitHub, VS Code, Postman, Figma} \\[1mm]
+    \textbf{Frameworks}{: React, Next.js, Node.js, Express, Tailwind, Shadcn UI, Appwrite, MongoDB, Firebase} \\[1mm]
+    \textbf{Skills}{: REST APIs, JWT Auth, CI/CD, Agile Workflow, Responsive Design, Prompt Engineering, AI Integrations}
+  }}
+\end{itemize}
+ \vspace{-12pt}
+
+
+ \vspace{-16pt}
+ \vspace{3pt}
+\vspace{10pt}
+
+\vspace{-12pt}
+\
+%-----------Experience---------------
+\section{Work Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {Appwrite Hackathon 2025}{Aug 2025 -- Sep 2025}
+  {Full Stack Developer}{Remote}
+\resumeItemListStart
+  \resumeItem{Built \textbf{Nomis.Life}, a custom-login portfolio site to help junior devs showcase projects.}
+  \resumeItem{Created a no-code \textbf{CMS dashboard} so users can manage offerings and tags easily.}
+  \resumeItem{Integrated \textbf{AI-assisted rewriting} to help users polish project descriptions with OpenAI.}
+  \resumeItem{Added real-time \textbf{chat, reviews, and trending feed} to boost user engagement.}
+\resumeItemListEnd
+
+
+
+\resumeSubheading
+  {Blue Bird Haus Sushi}{Apr 2025 -- May 2025}
+  {Full Stack Developer}{Los Angeles}
+\resumeItemListStart
+  \resumeItem{Built a full-stack site to give the restaurant a modern online presence with dynamic content.}
+  \resumeItem{Created a custom \textbf{CMS dashboard} so staff can update menus and gallery without dev help.}
+  \resumeItem{Improved mobile UX by compressing images and adding lazy loading, cutting load time by 1.2s.}
+  \resumeItem{Enabled full content control for staff, now supporting 100+ monthly site visitors.}
+\resumeItemListEnd
+
+
+
+
+            \resumeSubheading{TripleTen CodeJam Hackathon}{Mar 2025 -- Mar 2025}{Team Lead, Full Stack Developer}{Remote}
+            \resumeItemListStart
+              \resumeItem{Led a team of \textbf{4 devs} across time zones to build a full-stack \textbf{Eco Tracker} app in one week during the \textbf{CodeJam}}
+              \resumeItem{Created \textbf{Figma wireframes}, managed GitHub workflow, and integrated \textbf{frontend/backend} with clean UI}
+              \resumeItem{Set up full \textbf{CI/CD with GitHub Actions} and deployed app to a \textbf{custom domain} for live production}
+\resumeItemListEnd
+    \resumeSubHeadingListEnd
+    
+    \vspace{-12pt}
+
+%-----------PROJECTS-----------
+\section{Projects} 
+    \vspace{-2pt}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+            {\textbf{{Franchise Performance Dashboard}} $|$ \emph{\href{https://biz-boost-five.vercel.app/dashboard}{Website}{ $|$ }\href{https://github.com/SawSimonLinn/BizBoost}{Source Code}}}{Next.js $|$ TypeScript $|$ Tailwind}
+            \\[5mm]
+   \resumeItemListStart
+  \resumeItem{Developed a responsive financial dashboard using \textbf{React}, \textbf{Tailwind}, and \textbf{Appwrite} to calculate profits and expenses}
+  \resumeItem{Adopted by \textbf{15\%+ franchise owners}, generating real-time charts for better business decisions}
+\resumeItemListEnd
+
+ \vspace{-20pt}
+ \resumeProjectHeading
+{\textbf{{ Crypto Dash}} $|$ \emph{\href{https://crypto-dash-redesign.vercel.app/}{Website}{ $|$ }\href{https://github.com/SawSimonLinn/crypto-dash-redesign}{Source Code}}}{Next.js $|$ TypeScript $|$ Tailwind}
+\\[5mm]
+\resumeItemListStart
+  \resumeItem{Designed responsive \textbf{Crypto Dash} frontend UI fetching live data from the \textbf{CoinGecko API}}
+  \resumeItem{Implemented interactive charts and \textbf{real-time price tracking} with user-friendly layout}
+\resumeItemListEnd
+
+
+ \vspace{-17pt}
+
+ \resumeProjectHeading
+{\textbf{{ Brew Route }} $|$ \emph{\href{https://brew-route.vercel.app/}{Website}{ $|$ }\href{https://github.com/SawSimonLinn/brewRoute}{Source Code}}}{Next.js $|$ TypeScript $|$ Tailwind}
+\\[5mm]
+\resumeItemListStart
+  \resumeItem{Built a Coffee Finder web app using the \textbf{Google Maps API} to search nearby cafes by tag and place type}
+  \resumeItem{Integrated dynamic filtering by coffee type and location, with real-time map markers and UX-friendly layout}
+\resumeItemListEnd
+
+
+
+\resumeSubHeadingListEnd
+\vspace{-13pt}
+
+ %-----------EDUCATION-----------
+\section{Education}
+
+
+\resumeSubHeadingListStart
+  \vspace{1pt}
+  \resumeSubheading
+    {TripleTen Software Engineering Bootcamp}{Graduated: Feb 2025}
+    {Certificate in Full-Stack Software Engineering}{Remote}
+\resumeSubHeadingListEnd
+
+\vspace{-4pt}
+
+  \resumeSubHeadingListStart
+   \vspace{1pt}
+   \resumeSubheading
+    {University of Computer Studies, Yangon}{Graduated: May 2019}
+    {Diploma in Computer Science}{Yangon, Myanmar}
+  \resumeSubHeadingListEnd
+    \resumeItemListStart
+         \resumeItem{Graduated with Distinction | \textbf{GPA: 3.76}}
+            \vspace{-6pt}
+         \resumeItem{Relevant Courses: Software Engineering Practice, \textbf{Applied Machine Learning}, Operating Systems, Model-Based Programming, \textbf{Algorithms and Data Structures}, Intro to \textbf{Software Engineering}, \textbf{Computer Architecture}}
+    \resumeItemListEnd
+
+    
+    \vspace{-12pt}
+
+\end{document}
