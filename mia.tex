@@ -1,0 +1,227 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage[margin=1.4cm]{geometry}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.15in}
+ \addtolength{\textwidth}{0.3in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{0pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}\vspace{0pt}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+\begin{document}
+%----------HEADING----------
+\begin{center}
+    {\Large \scshape Mia Truong} \\[-1pt]
+    \footnotesize
+    \faPhone~\underline{(509) 994-7104} ~
+    \faEnvelope~\underline{trangmtruong@icloud.com} ~
+    \faLinkedin~\href{https://www.linkedin.com/in/trangmtruong}{\underline{linkedin.com/in/trangmtruong}} ~
+    \faGithub~\href{https://github.com/trangmtruong}{\underline{github.com/trangmtruong}} ~
+    \faBriefcase~\href{https://www.miatruong.com/}{\underline{miatruong.com}}
+\end{center}
+\vspace{-6pt}
+
+
+%-----------Summary-----------
+\section{Professional Summary}
+    \vspace{2pt}
+\small
+\noindent \textbf{Full-Stack Developer} with a \textbf{people-first} approach, known for strong \textbf{collaboration}, \textbf{adaptability}, and \textbf{communication}.\\
+    \vspace{2pt}
+\noindent Combines design intuition with practical \textbf{problem-solving} to deliver thoughtful, \textbf{user-focused solutions}.\\
+\noindent Recognized for \textbf{positivity}, \textbf{reliability}, and a calm, \textbf{detail-driven} mindset that elevates every team.
+\normalsize
+
+ \vspace{-2pt}
+  %-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+    \vspace{-2pt}
+\small
+\textbf{Languages \& Tools:} JavaScript, TypeScript, HTML, CSS, SQL, Git, GitHub, Postman, Figma \\
+    \vspace{2pt}
+\textbf{Frameworks:} React, Next.js, Node.js, Express, Tailwind, Vite, Storybook, Headless UI \\
+    \vspace{2pt}
+\textbf{Databases:} MongoDB, MySQL, KeystoneJS, DBeaver \\
+    \vspace{2pt}
+\textbf{Other:} AWS (S3, CloudFront, EC2, Route 53), NGINX, PM2, OAuth 2.0, Jest, Agile
+\normalsize
+
+
+%-----------Experience---------------
+\section{Work Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+ {PROJXON — Web Developer Intern}{Jun 2025 -- Present}
+  {momentuminternshipprogram.com}{Remote}
+\resumeItemListStart
+  \resumeItem{Built the Momentum Internship Program site using React, TypeScript, TailwindCSS.}
+  \resumeItem{Integrated Nodemailer + OAuth2 for email automation; tested endpoints in Postman.}
+  \resumeItem{Deployed via AWS (S3, CloudFront, EC2, Route53) with PM2 + Nginx and SSL.}
+  \resumeItem{Collaborated cross-functionally in weekly agile stand-ups and sprint reviews.}
+\resumeItemListEnd
+
+
+
+\resumeSubheading
+  {DROPS Externship — Software Engineer Extern}{Apr 2025 -- Jun 2025}
+  {TripleTen}{Remote}
+  \vspace{-2pt}
+\resumeItemListStart
+  \resumeItem{Built reusable UI components with React, TypeScript, Tailwind, and GraphQL.}
+  \resumeItem{Integrated frontend with Keystone + MySQL backend using GraphQL Codegen.}
+  \resumeItem{Collaborated in an agile team, participating in sprints, code reviews, and daily standups.}
+\resumeItemListEnd
+
+
+\resumeSubheading
+  {WTWR (What To Wear) — Software Engineer Student}{Apr 2024 -- Nov 2024}
+  {TripleTen}{Remote}
+  \vspace{-2pt}
+\resumeItemListStart
+  \resumeItem{Created responsive React + Vite app with user auth and weather-based outfit logic.}
+  \resumeItem{Developed Node.js + Express API with MongoDB and Jest unit tests; deployed on GCP.}
+  \resumeItem{Implemented dynamic weather API filtering and improved UI performance by 20\%.}
+\resumeItemListEnd
+
+
+
+\resumeSubheading
+  {TripleTen Code Jams — Software Engineer Participant}{Jul 2024 \& Jan 2025}
+  {TripleTen}{Remote}
+  \vspace{-2pt}
+\resumeItemListStart
+  \resumeItem{Won 1st place twice for front-end projects using HTML, CSS, and JavaScript.}
+  \resumeItem{Delivered light/dark modes, animations, and branding assets under deadlines.}
+  \resumeItem{Strengthened teamwork, time management, and creative problem-solving under pressure.}
+\resumeItemListEnd
+
+
+\resumeSubHeadingListEnd
+    
+
+%-----------PROJECTS-----------
+\section{Projects} 
+    \vspace{-2pt}
+    
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{Momentum Internship Program Website} $|$ \emph{\href{https://github.com/trangmtruong/MIP-site}{Source Code}}}{React | TypeScript | Tailwind | AWS}
+\resumeItemListStart
+  \resumeItem{Built and deployed full-stack platform supporting intern recruitment and blog CMS.}
+  \resumeItem{Configured AWS CloudFront + S3 hosting, Route 53 domain, and automated deployments.}
+\resumeItemListEnd
+
+    \vspace{-8pt}
+
+\resumeProjectHeading
+{\textbf{WTWR – Wardrobe App} $|$ \emph{\href{https://github.com/trangmtruong/se_project_react}{Source Code}}}{React | Node.js | MongoDB}
+\resumeItemListStart
+  \resumeItem{Weather-based outfit recommender integrating OpenWeather API and secure user auth.}
+  \resumeItem{Implemented Node.js backend with CRUD and centralized error handling middleware.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+    \vspace{-8pt}
+
+
+\resumeSubHeadingListEnd
+
+ %-----------EDUCATION-----------
+\section{Education}
+
+\resumeSubHeadingListStart
+\resumeSubheading
+  {TripleTen Software Engineering Bootcamp}{Graduated: Jan 2025}
+  {Certificate in Full-Stack Software Engineering}{Remote}
+\resumeSubheading
+  {Eastern Washington University}{Graduated: 2015}
+  {Pre-Pharmacy Studies}{Cheney, WA}
+\resumeSubHeadingListEnd
+    \vspace{-6pt}
+
+\end{document}
