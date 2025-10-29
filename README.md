@@ -59,4 +59,4 @@ Clean. Confident. No nonsense.
 
 ### Continue Reading
 
-Check out the [Resume Guide](RESUMEGUIDE.md) for tips on structure, projects, and ATS checks.
+Check out the [Resume Guide](https://github.com/SawSimonLinn/software-engineer-resume/blob/main/RESUMEGUIDE.MD) for tips on structure, projects, and ATS checks.
