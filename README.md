@@ -1,41 +1,56 @@
-# Software Engineer Resume Template
+# Simon’s LaTeX Resume Template
 
-This repository contains a LaTeX template for a professional software engineer resume that I have personally used to secure numerous interviews. This template is designed to highlight technical skills, project experience, and achievements in a clean and organized format.
+Hey there, I’m **Saw Simon Linn**, and this is the LaTeX resume template I personally use and customize on [Overleaf.com](https://www.overleaf.com).  
+If you want a clean, modern, and developer-friendly resume that actually looks like you know what you’re doing — this one’s for you.
 
-## Overview
-
-### Features
-
-- Clean and modern design.
-- Easy to customize and tailor for different job applications.
-- Sections for technical skills, work experience, projects, and education.
-- Structured layout to emphasize key information.
+---
 
 ## How to Use
 
-1. **Prerequisites:** Install LaTeX distribution (e.g., TeX Live, MiKTeX), or create an Overleaf account.
+### 1. Get the Template
 
-2. **Clone the Repository:**
+Click the green **Code** button above → choose **Download ZIP**.  
+Unzip it anywhere on your computer.
 
-    ```bash
-    git clone https://github.com/SawSimonLinn/software-engineer-resume.git
-    cd software-engineer-resume
-    ```
+---
 
-    - You can also simply copy paste this into Overleaf!
+### 2. Open in Overleaf
 
-3. **Edit the Resume:**
+Go to [overleaf.com](https://www.overleaf.com) and log in (or sign up — it’s free).  
+Click **New Project → Upload Project**, then upload this template.
 
-    - Open `main.tex` in your preferred LaTeX editor.
-    - Customize the content under each section (skills, experience, projects, education) according to your own details.
-    - Modify the styling, fonts, or colors as needed.
+---
 
-4. **Compile the Resume:**
+### 3. Make It Yours
 
-    - Compile the LaTeX file (`main.tex`) using your LaTeX distribution.
-    - This will generate the PDF output (`resume.pdf`) with your updated resume.
+Open the `main.tex` file.  
+You’ll see lines like:
 
-5. **Preview and Print:**
+```tex
+\name{Your Name}
+\position{Frontend Developer}
+\email{you@email.com}
+```
 
-    - Review the `resume.pdf` to ensure everything appears as expected.
-    - Print or save the PDF to share with potential employers.
+Replace them with your info.
+Add your experience, skills, and projects — and make it sound like you.
+
+### 4. Compile
+
+Click the green Recompile button.
+If you see errors, don’t panic — check for missing brackets {} and try again.
+Once it compiles, your resume PDF appears instantly on the right side.
+
+### 5. Download
+
+When it looks perfect, click Download PDF.
+Save it as Simon_Linn_Resume.pdf (or your own name).
+
+Why I Use LaTeX
+
+I switched to LaTeX because I wanted my resume to look sharp, clean, and consistent every single time — no broken formatting, no shifting layouts.
+It’s perfect for developers and designers who care about structure and detail.
+
+That’s it.
+You now have a professional, simple, and elegant resume — built the same way I make mine.
+Clean. Confident. No nonsense.
