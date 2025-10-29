@@ -54,3 +54,9 @@ It’s perfect for developers and designers who care about structure and detail.
 That’s it.
 You now have a professional, simple, and elegant resume — built the same way I make mine.
 Clean. Confident. No nonsense.
+
+---
+
+### Continue Reading
+
+Check out the [Resume Guide](RESUMEGUIDE.md) for tips on structure, projects, and ATS checks.
